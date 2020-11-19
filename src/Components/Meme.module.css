@@ -1,0 +1,56 @@
+.form {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 1rem;
+     border-radius: 0.4rem;
+     background-color: rgb(184, 118, 246);
+     border: 2px solid rgb(245, 244, 241);
+}
+.form input,
+button {
+     font-weight: 1000;
+     color: black;
+     width: 100%;
+     margin: 0.5rem 0;
+     border-radius: 5px;
+     outline: none;
+     border: 1px solid;
+     padding: 0.5rem;
+     text-align: center;
+     background-color: rgb(255, 255, 255);
+     cursor: pointer;
+}
+.imgContainer {
+     margin: 1rem 0;
+     height: 350px;
+     width: 350px;
+     border: 1px solid whitesmoke;
+     position: relative;
+}
+.memeimg {
+     height: 100%;
+     width: 100%;
+     z-index: 0;
+}
+.topText {
+     position: absolute;
+     top: 0;
+     width: 350px;
+     z-index: 1;
+     color: rgb(0, 0, 0);
+     word-wrap: break-word;
+     background-color: rgb(255, 255, 255);
+     margin: 0;
+}
+.bottomText {
+     position: absolute;
+     bottom: 0;
+     color: rgb(0, 0, 0);
+     width: 350px;
+     z-index: 1;
+     word-wrap: break-word;
+     background-color: rgb(255, 255, 255);
+     margin: 0;
+}
